@@ -33,5 +33,3 @@ Has proper indentation
 
 # Includes comments
 
-Follows semantic HTML5 structure (use appropriate tags like <header>, <section>, <form>
-
