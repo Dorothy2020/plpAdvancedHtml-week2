@@ -1,12 +1,13 @@
 📄 Project Instructions – HTML Practice
+
 🔧 Instructions
-Create an index.html file.
+# Create an index.html file.
 
-Add an ordered list using Roman numerals.
+- Add an ordered list using Roman numerals.
 
-Add an external image from Pexels.com.
+- Add an external image from Pexels.com.
 
-Create a table of 5 contacts with the following columns:
+# Create a table of 5 contacts with the following columns:
 
 Name
 
@@ -16,21 +17,21 @@ Mobile
 
 Email
 
-Add a registration form that includes:
+- Add a registration form that includes:
 
-Name, Email, Password, and Date fields
+- Name, Email, Password, and Date fields
 
-A dropdown, radio buttons, and checkboxes
+- A dropdown, radio buttons, and checkboxes
 
 Proper labels and placeholders
 
-Use required and validation attributes (e.g., type="email", minlength, etc.)
+## Use required and validation attributes (e.g., type="email", minlength, etc.)
 
 Ensure the code:
 
 Has proper indentation
 
-Includes comments
+# Includes comments
 
 Follows semantic HTML5 structure (use appropriate tags like <header>, <section>, <form>
 
