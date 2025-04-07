@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Introduction</li>
+            <li>Objective</li>
+            <li>Implementation</li>
+            <li>Results</li>
+            <li>Conclusion</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Embedded Image</h2>
+        <img src="img/nature.jpg" 
+             alt="Nature Image" width="600">
+    </section>
+    
+    <!-- Table of 5 Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Beatrice</td>
+                    <td>1234 Elm St, Springfield</td>
+                    <td>+1 234 567 890</td>
+                    <td>johndoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak Rd, Springfield</td>
+                    <td>+1 234 567 891</td>
+                    <td>janesmith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Samuel Green</td>
+                    <td>4321 Pine Ave, Shelbyville</td>
+                    <td>+1 234 567 892</td>
+                    <td>samgreen@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Olivia Brown</td>
+                    <td>8765 Birch Blvd, Shelbyville</td>
+                    <td>+1 234 567 893</td>
+                    <td>oliviabrown@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Clark</td>
+                    <td>1357 Maple Dr, Springfield</td>
+                    <td>+1 234 567 894</td>
+                    <td>michaelclark@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Audio Example Section -->
+    <section>
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="path-to-your-audio-file.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+</body>
+</html>
